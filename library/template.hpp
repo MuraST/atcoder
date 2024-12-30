@@ -3,8 +3,13 @@
 #include <atcoder/all>
 using namespace std;
 using namespace atcoder;
+using uint = unsigned int;
+using ull = unsigned long long;
 using ll = long long;
 using ld = long double;
+template <class T>
+using min_priority_queue = priority_queue<T,vector<T>,greater<T>>;
+constexpr long long INF32 = 1000000000;
 constexpr long long INF = (1LL<<60);
 constexpr long long modA = 998244353;
 constexpr long long modB = 1000000007;
