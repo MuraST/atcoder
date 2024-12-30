@@ -2,7 +2,7 @@
 
 ACL_PATH="/mnt/c/Users/takoy/vscode/ac-library"
 LIBRARY_PATH="/mnt/c/Users/takoy/vscode/atcoder/library"
-SUBMIT_PATH="/mnt/c/Users/takoy/vscode/atcoder/config/acs.sh"
+SUBMIT_PATH="/mnt/c/Users/takoy/vscode/atcoder/config/submit.sh"
 CODE_FILE="main.cpp"
 
 g++ "$CODE_FILE" -Wall -std=c++23 -I "$ACL_PATH" -I "$LIBRARY_PATH"
